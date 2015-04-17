@@ -1,0 +1,35 @@
+.lm-button{
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-user-select: none;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 1em 1.333em .916em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lm-button:hover{
+
+  background-color: #fff;
+  color: #337ab7;
+  border-color: #337ab7;
+
+}
+
+.description{
+
+  height: 100px;
+}

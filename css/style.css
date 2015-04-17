@@ -1,4 +1,4 @@
-.lm-button{
+.the-button{
   -webkit-appearance: none;
   -webkit-font-smoothing: inherit;
   -webkit-user-select: none;
@@ -21,7 +21,7 @@
   text-decoration: none;
 }
 
-.lm-button:hover{
+.the-button:hover{
 
   background-color: #fff;
   color: #337ab7;

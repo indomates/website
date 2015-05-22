@@ -1,11 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Global Styles */
-
 html,
 body {
     width: 100%;
@@ -14,6 +6,11 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-center {
+    position: absolute;
+  top: 10%;
+  left: 50%;
 }
 
 .text-vertical-center {
@@ -27,6 +24,59 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+
+.the-button{
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-user-select: none;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 1em 1.333em .916em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.the-button:hover{
+
+  background-color: #fff;
+  color: #337ab7;
+  border-color: #337ab7;
+
+}
+
+.description{
+
+  height: 100px;
+}
+
+.main-button{
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+
+
+}
+.main{
+  margin-left: -20px;
+}
+
+.logo {
+  max-width: 500px; 
+  margin-left: -250px;
+
 }
 
 /* Custom Button Styles */

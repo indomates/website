@@ -272,6 +272,15 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
+/*price*/
+.pricing_table{margin-top: 20px;}
+#home-box > h2 { font-family: "Quicksand", sans-serif; font-weight: 400; line-height: 1.1; color: #fff; }
+.price { font-size: 25px; text-align: center; }
+.pricing_header { background: none repeat scroll 0% 0% rgb(44, 62, 80); border-radius: 5px 5px 0px 0px; transition: background 0.4s ease-out 0s; }
+.pricing_header h2 { text-align:center; line-height: 25px; padding: 15px 0px; margin: 0px; font-family: "Quicksand", sans-serif; font-weight: 400; color: #fff; }
+.list-group-item:first-child { border-top-right-radius: 0px; border-top-left-radius: 0px; }
+.off { text-decoration: line-through; color: rgb(86,86,86); }
+.space {height: 2px; background-color: #337ab7;}
 
 /* Map */
 

@@ -13,6 +13,9 @@ body {
   left: 50%;
 }
 
+.row{
+  margin-bottom: 15px;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -231,6 +234,7 @@ hr.small {
     margin-bottom: 30px;
 }
 
+
 /* Callout */
 
 .callout {
@@ -286,6 +290,97 @@ hr.small {
 
 .map {
     height: 500px;
+}
+
+/*image shadow*/
+.image{
+    box-shadow: 0;
+    -webkit-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    -kthtml-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+    padding: 3px;
+    border: 1px solid #eee;
+}
+.image:hover{
+     -webkit-box-shadow: 0 0 3px #515151;
+    -moz-box-shadow: 0 0 3px #515151;
+    box-shadow: 0 0 3px #515151;
+
+}
+.gallery{
+  max-height: 250px;
+  max-width: 250px;
+}
+
+/*list page*/
+.body-list{
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+#logo-navbar-middle{
+  position: absolute;
+    left: 50%;
+    margin-left: -100px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.list-photo{
+  margin-bottom: 20px;
+}
+
+.unit-photo img{
+  height: 150px;
+  width: 150px;
+}
+
+.gmaps{
+  position:relative;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+.information {
+  text-align: center;
+}
+
+.information h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+}
+
+.information h3 {
+    color: #337ab7;
+  font-size: 2.5em;
+  margin: 0;
+  padding: .2em 0;
+  font-weight: normal;
+}
+
+.information small {
+    color: #337ab7;
+  font-weight: normal;
+}
+
+.tell-us{
+  margin-top: 50px;
+}
+
+.thumb {
+    margin-bottom: 30px;
 }
 
 @media(max-width:768px) {
